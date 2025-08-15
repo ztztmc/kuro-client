@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "website.kuro.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "StartMixin",
+    "MinecraftMixin",
+    "GuiInGameMixin",
+    "EntityPlayerSPMixin",
+    "EntityPlayerMixin",
+    "EntityRendererMixin",
+    "EntityLivingBaseMixin",
+    "InventoryEffectRendererMixin",
+    "ItemRendererMixin",
+    "accessor.GuiContainerAccessor",
+    "accessor.GuiScreenAccessor",
+    "accessor.ShaderGroupAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
